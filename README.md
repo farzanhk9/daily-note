@@ -43,7 +43,7 @@ def mark_done():
         choice = int(input("\nEnter task number to mark as done: "))
         tasks[choice - 1]["done"] = True
         save_tasks(tasks)
-        print("🎯🎯 Task marked as completed!")
+        print("🎯 Task marked as completed!")
     except:
         print("⚠️ Invalid choice.")
 
